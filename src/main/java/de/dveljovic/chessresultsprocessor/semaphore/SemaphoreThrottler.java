@@ -1,11 +1,11 @@
 package de.dveljovic.chessresultsprocessor.semaphore;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.concurrent.Semaphore;
 
-@Component
+@Configuration
 public class SemaphoreThrottler {
 
     @Bean
